@@ -22,9 +22,14 @@
                 <div class="row">
                         <div class="col-md-12 jumbotron text-center">
                             <h1><i>Game Statistics over the Years</i></h1>
-                            <p><u>Use the interactive charts below to explore the Data about the DATA</u></p>
+                            <p><u>Use the chart below to explore the Game Analysis</u></p>
                         </div>
                 </div>
+				<h5><p>These Bars show Home vs.Away team performance correlation with environmental variables, which are read year wise, from 2002 to 2018.Graphs are drawn using Charts.js.
+Home team has overall advantage as seen aggregated over the years.However Away team is seen to have more wins than Home in conditions of Low Humidity, Low Wind chill and when wind speeds are high.
+Home is at a clear advantage when when temperatures are low, winds are chilly and blow at low speed, and also when humidity is high.
+At high temperatures, both teams perform equally well.
+However, we need to control for other factors like team composition, ground conditions, team-leadership, home crowd enthusiasm etc. to establish concrete causal relationship between climate and perfoemance of Home and Away teams.</p></h5>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="well">
@@ -38,10 +43,9 @@
                             <div id="year-metadata" class="panel-body"></div>
                         </div>
 					</div>
-					<div class="col-md-9">
-                        <canvas id="barChart" width="650" height="400"></canvas>
+					<div id="ChartContainer" class="col-md-9">
+					  <canvas id="barChart" width="650" height="400"></canvas>
                     </div>
-                    
 					
                 </div>
             </div>

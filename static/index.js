@@ -78,7 +78,7 @@ function getOptions() {
     var selDataset = document.getElementById('selDataset');
     // Use the list of sample names to populate the select options
     Plotly.d3.json('/names', function(error, yearList) {
-        for (var i = 0; i < yearList.length;  i++) {
+        for (var i = 0; i < yearList.length; i++) {
             var currentOption = document.createElement('option');
             currentOption.text = yearList[i];
             currentOption.value = yearList[i]

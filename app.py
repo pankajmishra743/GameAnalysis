@@ -12,7 +12,7 @@ import numpy as np
 
 
 
-engine = create_engine("sqlite:///DataSets/newNFL.db",connect_args={'check_same_thread': False})
+engine = create_engine("sqlite:///DataSets/nfl.db",connect_args={'check_same_thread': False})
 
 
 Base = automap_base()
