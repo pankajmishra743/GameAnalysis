@@ -19,7 +19,7 @@ var awayData = {
   data: aData,
   backgroundColor: 'rgba(225, 125, 25, 1)',
   borderWidth: 0,
-  yAxisID: "y-axis-away"
+  //yAxisID: "y-axis-away"
 };
 
 var chartData = {
@@ -38,12 +38,14 @@ var chartOptions = {
 	  ticks:{
               beginAtZero:true
 	  }
-    }, {
-      id: "y-axis-away",
-	  ticks:{
-              beginAtZero:true
-	  }
-    }]
+    }
+	    //, {
+      //id: "y-axis-away",
+	//  ticks:{
+          ///    beginAtZero:true
+	  //}
+    //}
+	   ]
   }
 };
 
